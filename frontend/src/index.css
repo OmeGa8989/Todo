@@ -28,24 +28,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
   justify-content: center;
-  background: linear-gradient(135deg, #1a1c2c 0%, #4a192c 50%, #1a1c2c 100%);
-  background-size: 200% 200%;
-  animation: gradientBG 15s ease infinite;
+  background-image: url('./assets/bg-gradient.png');
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
-}
-
-@keyframes gradientBG {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 h1 {

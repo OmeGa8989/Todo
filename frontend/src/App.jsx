@@ -88,7 +88,7 @@ function App() {
   }
 
   return (
-    <div className="w-full max-w-md mx-auto p-6 bg-white dark:bg-zinc-900 rounded-xl shadow-lg border border-zinc-200 dark:border-zinc-800">
+    <div className="w-full max-w-xl mx-auto p-6 bg-white dark:bg-zinc-900 rounded-xl shadow-lg border border-zinc-200 dark:border-zinc-800">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-zinc-800 dark:text-zinc-100 mb-2">Task Manager</h1>
         <p className="text-zinc-500 dark:text-zinc-400 font-montserrat text-sm italic">
